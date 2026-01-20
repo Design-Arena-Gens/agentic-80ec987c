@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+
+@layer utilities {
+  .terminal-glow {
+    text-shadow: 0 0 5px currentColor;
+  }
+
+  .terminal-border {
+    box-shadow: 0 0 10px rgba(57, 186, 230, 0.3);
+  }
+}
